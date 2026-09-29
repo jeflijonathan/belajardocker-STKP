@@ -1,0 +1,6 @@
+services:
+  server2:
+    build: .
+    command: python -u app.py server2
+    ports:
+      - "5002:5002"
