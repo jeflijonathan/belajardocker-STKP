@@ -1,0 +1,6 @@
+services:
+  cpu-simulation:
+    build: .
+    container_name: cpu-simulation
+    cpuset: "0"
+    cpus: 6
